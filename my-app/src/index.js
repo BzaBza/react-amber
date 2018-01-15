@@ -1,13 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import MainHeader from './component/main-header/index';
-import MainFooter from './component/main-footer/index';
 import registerServiceWorker from './registerServiceWorker';
+import App from './App';
 
 ReactDOM.render(
-    [
-    <MainHeader />, <MainFooter />
-    ],
-    document.getElementById('root'));
+    <App/>, document.getElementById('root'));
 registerServiceWorker();

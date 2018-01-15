@@ -1,0 +1,156 @@
+.top-bar
+  background: #000000
+  display: flex
+  justify-content: space-around
+  align-items: center
+  font-weight: 300
+  font-family: Oxygen, serif
+  color: #85939f
+
+.top-bar-links
+  display: flex
+  align-items: center
+  margin: 0
+  li
+    list-style: none
+    margin-right: 1em
+    a
+      color: #85939f
+      text-decoration: none
+
+.search
+  margin: 1em
+  background: none
+  color: #ffffff
+  border: 1px solid rgba(133, 147, 159, 0.5)
+
+.search-input
+  background: none
+  border: none
+  padding-left: 1em
+
+.search-button
+  background: url("./components/main-header/graphics/shape-36.png")
+  width: 14px
+  height: 13px
+  border: none
+  margin-right: 0.5em
+
+.navbar-brand
+  margin: 1em 0 1em 0
+  background: url("./components/main-header/graphics/shape-9.png")
+  width: 130px
+  height: 48px
+
+.bottom-bar
+  z-index: 1
+  width: 100%
+  position: absolute
+  flex-wrap: wrap
+  display: flex
+  justify-content: space-around
+  padding: 0 0 0 7em
+  background-color: rgba(0, 0, 0, 0.5)
+  color: black
+
+.navigation
+  margin: 0
+  align-items: flex-start
+  display: flex
+  flex-wrap: wrap
+  @media (max-width: 880px)
+    display: none
+  li
+    text-transform: uppercase
+    width: 99px
+    display: flex
+    height: 100%
+    align-items: center
+    list-style: none
+    justify-content: center
+    a
+      font-size: 12px
+      color: #ffffff
+      text-decoration: none
+      width: 100%
+      height: 100%
+      text-align: center
+      padding-top: 33%
+
+.add-on-header
+  ul
+    margin: 0
+    padding: 0
+
+.add-on-header-img
+  width: auto
+  height: 100%
+  position: inherit
+  z-index: 0
+  overflow: hidden
+
+.add-on-header-content
+  margin: -6em 0 0 0
+  position: absolute
+  z-index: 1
+  width: 100%
+  h3
+    font-size: 36px
+    color: #ffffff
+  li
+    padding-right: 1em
+    font-size: 12px
+    color: #85939f
+
+.login:before
+  content: url("./components/main-header/graphics/shape-59.png")
+  padding-right: 1em
+
+.register:before
+  content: url("./components/main-header/graphics/shape-61.png")
+  padding-right: 1em
+
+.brand
+  display: none
+
+.yellow
+  border-top: 6px solid #ffae00
+
+.yellow:hover
+  background: #ffae00
+
+.orange
+  border-top: 6px solid #fc7100
+
+.orange:hover
+  background: #fc7100
+
+.pink
+  border-top: 6px solid #e51c5e
+
+.pink:hover
+  background: #e51c5e
+
+.dark-pink
+  border-top: 6px solid #ae0f8d
+
+.dark-pink:hover
+  background: #ae0f8d
+
+.violet
+  border-top: 6px solid #6d0fae
+
+.violet:hover
+  background: #6d0fae
+
+.dark-blue
+  border-top: 6px solid #33227a
+
+.dark-blue:hover
+  background: #33227a
+
+.blue
+  border-top: 6px solid #0c8fcc
+
+.blue:hover
+  background: #0c8fcc
