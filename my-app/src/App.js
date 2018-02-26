@@ -1,14 +1,16 @@
+import React, {Component, render} from 'react';
+import {Router, Route} from 'react-router';
+
+import HomePage  from './layout/home-page';
+import Blog  from './layout/blog-page';
+import BlogSingle from './layout/blog-single';
+import Portfolio  from './layout/portfolio';
+import GridGallery from './layout/grid-gallery';
+
 import './index.css';
-import React, {Component, render} from 'react'
-import {Router, Route} from 'react-router'
+import './include/bootstrap';
 
-import HomePage  from './layout/home-page'
-import Blog  from './layout/blog-page'
-import BlogSingle from './layout/blog-single'
-import Portfolio  from './layout/portfolio'
-import GridGallery from './layout/grid-gallery'
-
-import createBrowserHistory from 'history/createBrowserHistory'
+import createBrowserHistory from 'history/createBrowserHistory';
 const customHistory = createBrowserHistory();
 
 
